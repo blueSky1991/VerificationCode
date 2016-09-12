@@ -8,15 +8,14 @@ import java.util.*;
 public class AwtTest {
 	
 	
-	static Button button;
+
 	static DDPanel panel;
 	public static void main(String[] args) throws NullPointerException{
 		// TODO Auto-generated method stub
-		 Frame frame = new Frame("产生验证码");
+		 Frame frame = new Frame("验证码");
 		 panel = new DDPanel();
-//		 button = new Button("换一个");
 		frame.add(panel);
-		frame.setSize(300,300);
+		frame.setSize(200,100);
 		// 将frame窗口居中
 		frame.setLocation(300,400);
 		
@@ -76,7 +75,7 @@ class DDPanel extends Panel{
 	public void paint(Graphics graphics){
 	
 		int width = 200; //定义验证码的宽度
-		int height = 60; //定义验证码的高度
+		int height = 100; //定义验证码的高度
 		graphics.setColor(Color.lightGray);// 定义上下文颜色
 		graphics.fillRect(0, 0, width, height);
 		graphics.setColor(Color.BLACK);
