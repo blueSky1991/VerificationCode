@@ -14,7 +14,7 @@ public class AwtTest {
 		// TODO Auto-generated method stub
 		 Frame frame = new Frame("产生验证码");
 		 panel = new DDPanel();
-		 button = new Button("换一个");
+//		 button = new Button("换一个");
 		frame.add(panel);
 		frame.setSize(300,300);
 		// 将frame窗口居中
@@ -27,7 +27,7 @@ public class AwtTest {
 				System.exit(0);// 直接退出程序
 			}
 
-			@Override
+			
 			public void windowOpened(WindowEvent e) {
 				// TODO Auto-generated method stub
 				
