@@ -91,7 +91,7 @@ class DDPanel extends Panel{
 			
 		}
 		
-		graphics.setFont(new Font("黑体", Font.BOLD, 30)); //设置验证码的字体
+		graphics.setFont(new Font("黑体", Font.BOLD, 40)); //设置验证码的字体
 		graphics.setColor(Color.BLUE);  // 设置验证码的颜色
 		
 		drawRandomBuffer(random, graphics);
